@@ -1,0 +1,79 @@
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ************SECTION 1************ */
+
+
+.about h2{
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+}
+.about p {
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 600;
+}
+.about video {
+    max-width: 90%;
+    margin: 20px auto;
+    display: block;
+}
+
+
+/* ************SECTION 2************ */
+
+.private h2 {
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+.private p {
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+/* ************SECTION 3************ */
+
+.image {
+    background-color: rgb(219, 211, 202);
+    padding: 20px 0;
+    margin: 20px auto 60px auto;
+}
+.descrption {
+    margin: 0 auto;
+    
+}
+.image img {
+    max-width: 95%;
+    display: block;
+    margin: 0 auto;
+}
+
+.image p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+@media (min-width: 780px) {
+    .image {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .descrption {
+        width: 50%;
+    }
+    
+}

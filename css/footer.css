@@ -1,0 +1,33 @@
+footer {
+    background-image: url(/instructions/ressources/images/footer-bg.jpg);
+    color: white;
+    padding-bottom: 60px;
+}
+
+footer .card h4{
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    border-bottom: 1px dashed white;
+    margin: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+footer .card li {
+    list-style: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+@media (min-width: 780px) {
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+    footer .card {
+        width: 32%;
+    }
+}
+@media (min-width: 980px) {
+   
+}

@@ -1,0 +1,97 @@
+main {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 15px;
+}
+
+/* ********* SECTION 1********** */
+.contact h2 {
+    font-size: 24px;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+.contact p {
+    text-align: center;
+}
+.contact p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 600;
+}
+.contact p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+span {
+    color: rgb(106, 5, 5);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ********* SECTION 2********** */
+
+form {
+    background-color: rgb(241, 233, 221);
+    padding: 30px;
+}
+form h3 {
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.up {
+    display: flex;
+}
+.reservation, .details {
+    width: 50%;
+}
+label {
+    display: block;
+    font-weight: 600;
+    margin-left: -10px;
+}
+input {
+    width: 90%;
+    height: 33px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(110, 104, 104);
+}
+textarea {
+    width: 95%;
+    height: 80px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 10px 20%;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: #443C39;
+    letter-spacing: 3px;
+}
+
+
+.location h2{
+    font-size: 24px;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+iframe {
+    margin: 40px auto;
+    border: 1px solid black;
+    width: 100%;
+    
+}

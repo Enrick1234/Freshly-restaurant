@@ -1,0 +1,159 @@
+
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* *****************************************************************
+premiere section
+***************************************************************** */
+
+.carrousel {
+    height: 500px;
+    background-color: red;
+    margin-top: 50px;
+}
+
+/* *****************************************************************
+deuxieme section
+***************************************************************** */
+.welcome h2, .menus h2{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: 'Merienda', cursive;
+    font-weight: bold
+}
+img {
+    
+    max-width: 100%;
+    
+}
+
+.welcome img {
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+}
+.welcome p {
+    font-size: 20px;
+    margin: 30px 20px;
+}
+/* *****************************************************************
+troisieme section
+***************************************************************** */
+.menus .menuType {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #ebe3db;
+    margin-bottom: 40px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.menus h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.menus li {
+    height: 50px;
+    list-style: none;
+    border-bottom: 1px dashed black;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    padding-left: 13px;
+    color: #4c4343;
+}
+
+
+.menus button {
+    width: 90%;
+    margin: 30px auto;
+    height: 70px;
+    background-color: #4c4343;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    display: block;
+    
+}
+
+.test {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.763);
+    top: 0;
+    bottom: 10px;
+    width: 100%;
+    padding-top: 20%;
+    
+    display: none;
+    
+}
+.centre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-between;
+
+}
+.allMenu .menuType:hover .overlay {
+    display: block;
+}
+
+.overlay p:first-child {
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -20px;
+}
+.overlay p:nth-child(2) {
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 1%;
+    font-style: italic;
+    line-height: 18px;
+}
+
+.overlay img {
+    height: auto;
+    max-width: 40px;
+    margin: 3% auto;
+    display: block;
+
+}
+
+
+@media (min-width: 980px) {
+    
+    .allMenu {
+        display: flex;
+    }
+    .menuType {
+        max-width: 30%;
+    }
+    
+}
+
+.slick-prev, .slick-next {
+    transform: translateX(-8000px);
+}
+i {
+    color: brown;
+}
+
+
+
